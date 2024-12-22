@@ -15,7 +15,15 @@ interface projectcardprops {
   value: any;
   num: number
 }
+
 const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
+  var buttons = "";
+  if (value.link != "update later") {
+    buttons = "Visit Project";
+  }
+  else {
+    buttons = "update later";
+  }
   return (
   <FramerWrapper className={"max-w-[32%] min-h-[345px] max-lg:max-w-full"} y={0} scale={0.8} delay={num/4} duration={0.15}>
     <Card className="w-full h-full">
@@ -35,13 +43,19 @@ const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
         </div>
       </CardContent>
       <CardFooter className="items-center justify-center flex">
-        <Link
+      <Link
+          href={value.link}
+          target="blank"
+          className={cn(buttonVariants({ variant: "default", size: "lg" }),"flex")}
+        >
+          {buttons} <ArrowUpRight className="h-5 w-5 ml-1" /> </Link>
+        {/* <Link
           href={value.link}
           target="blank"
           className={cn(buttonVariants({ variant: "default", size: "lg" }),"flex")}
         >
           Visit Project <ArrowUpRight className="h-5 w-5 ml-1" />
-        </Link>
+        </Link> */}
       </CardFooter>
     </Card>
     </FramerWrapper>

@@ -7,9 +7,9 @@ const page = () => {
   const items = [
     { hobby: "coding" },
     { hobby: "playing games" },
-    { hobby: "Watching Anima" },
-    { hobby: "Tech Blog writing" },
+    { hobby: "Watching Anime" },
     { hobby: "creating Cool Projects" },
+    { hobby: "make amazing module"},
   ];
 
   return (
@@ -22,14 +22,14 @@ const page = () => {
       <div className="flex flex-col gap-3">
        
           <Heading>
-            Software Engineer And Game <br /> Developer, Based In Viet Nam.
+            Software Engineer And Solo Game <br /> Developer, Based In Viet Nam.
           </Heading>
    
         <FramerWrapper y={0} x={100} >
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-            I am a Full Stack Web Developer from 
+            I am a Sole Developer from 
             Viet Nam. I love crafting cool web projects and also open-source
-            contribuitions. My solo game dev. With a keen eye for detail and a commitment to delivery
+            contribuitions. I using godot engine to making my game. With a keen eye for detail and a commitment to delivery
             speed, I excel at creating my dream game that make you impressive.
           </p>
         </FramerWrapper>

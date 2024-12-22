@@ -12,7 +12,11 @@ import nextjs from '../../../public/nextjs.jpeg'
 import cplus from '../../../public/c++.jpeg'
 import tailwind from '../../../public/tailwindcss.png'
 import github from '../../../public/github.png'
-import vscode from '../../../public/vscode.png'
+import vscode from '../../../public/vs.png'
+import vc from '../../../public/git.png'
+import lua from '../../../public/lua.png'
+import gd from '../../../public/godot.png'
+import python from '../../../public/python.png'
 import FramerWrapper from "@/components/animation/FramerWrapper";
 const skillPage = () => {
 
@@ -21,7 +25,9 @@ const skillPage = () => {
         {alt:"css", img:css},
         {alt:"js", img:js},
         {alt:"ts", img:ts},
-        {alt:"cplus", img:cplus},
+        {alt:"godot", img:gd},
+        {alt:"python", img:python},
+        {alt:"lua", img:lua},
     ]
     const framework = [
         {alt:"react", img:react},
@@ -30,6 +36,7 @@ const skillPage = () => {
         {alt:"tailwind", img:tailwind},
         {alt:"github", img:github},
         {alt:"vscode", img:vscode},
+        {alt:"git", img:vc},
     ]
        
 
@@ -45,8 +52,8 @@ const skillPage = () => {
         <FramerWrapper y={0} x={200} >
 
         <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-          Currently i am a fresher and i have a solid understand of HTML5, CSS3, JS, TS and React, including
-          responsive design principles. I specialize in building web
+          Currently i am a junior and i have a solid understand of Lua, HTML5, CSS3, JS, GDscript, React and Python, including
+          responsive design principles. Moveover, my game project based on Godot Engine . I specialize in building web
           applications and sites using Javascript, Typescript, React, Nextjs &
           Node.
         </p>
