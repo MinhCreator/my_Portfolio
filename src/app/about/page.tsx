@@ -9,7 +9,7 @@ const page = () => {
     { hobby: "playing games" },
     { hobby: "Watching Anime" },
     { hobby: "creating Cool Projects" },
-    { hobby: "make amazing module"},
+    { hobby: "make amazing game module"},
   ];
 
   return (

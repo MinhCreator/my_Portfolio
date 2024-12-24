@@ -3,7 +3,7 @@ import Heading from "@/components/Heading";
 import ProjectCards from "@/components/ProjectsCard";
 import { Badge } from "@/components/ui/badge";
 import { Description } from "@radix-ui/react-toast";
-import { Layers } from "lucide-react";
+import { Layers, Archive } from "lucide-react";
 
 const projectsPage = () => {
   // PROJECTS DATA
@@ -98,7 +98,7 @@ const projectsPage = () => {
     // PROJECT PAGE
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge className=" gap-2">
-        <Layers className="h-5 w-5" />
+        <Archive className="h-5 w-5" />
         Projects
       </Badge>
       <div className="flex flex-col gap-3">

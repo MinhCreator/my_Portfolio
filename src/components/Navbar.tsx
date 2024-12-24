@@ -9,9 +9,11 @@ import {
   HomeIcon,
   Mail,
   MoreHorizontal,
- 
+  Github,
+  FolderHeart,
+  
   User,
-} from 'lucide-react';
+} from "lucide-react";
 
 import { Dock, DockIcon, DockItem, DockLabel } from '@/components/animation/DockAnimation';
 
@@ -19,6 +21,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import FramerWrapper from "./animation/FramerWrapper";
 import { usePathname } from "next/navigation";
+import { title } from "process";
 
 const Navbar = () => {
 
@@ -54,11 +57,17 @@ const Navbar = () => {
     {
       title: 'Projects',
       icon: (
-        <FolderGit2 className='h-full w-full ' />
+        <FolderHeart className='h-full w-full ' />
       ),
       href: '/projects',
     },
-   
+    {
+      title: 'Github activity',
+      icon: (
+        <Github className="h-full w-full" />
+      ),
+      href : '/git_act',
+    },
     {
       title: 'Contact us',
       icon: (
