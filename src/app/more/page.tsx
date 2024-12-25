@@ -50,7 +50,7 @@ const morePage = () => {
       title: "Buy Me a coffee",
       description:
         "Your support goes a long way in helping me maintain the quality of content, explore new topics, and dedicate more time to creating valuable projects.",
-      link: "buymeacoffee.com/MinhCreatorVN",
+      link: "https://ko-fi.com/buivonhatminh",
     },
   ];
 
