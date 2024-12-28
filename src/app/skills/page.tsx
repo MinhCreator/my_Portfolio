@@ -62,14 +62,18 @@ const skillPage = () => {
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl">
             Programming Languages
           </h1>
-          <div className="w-full h-fit flex-row flex justify-between items-center gap-2">
+          <div className="w-full h-fit flex-row flex flex-wrap items-center gap-x-40 lg:gap-x-20 gap-y-9 lg:justify-center xl:justify-center">
             <img
               src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MinhCreator&theme=2077"
               alt="language"
+              height="300px"
+              width ="450px"
             />
             <img
               src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhCreator&layout=donut&count_private=true&show_icons=true&theme=radical&hide_border=false"
               alt=""
+              height="298px"
+              width ="450px"
             />
             {/* <SkillsFooter items={language} /> */}
           </div>

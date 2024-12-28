@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
+  darkMode: "class",
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -11,8 +11,8 @@ module.exports = {
     screens: {
       sm: '480px',
       md: '720px',
-      lg: '976px',
-      xl: '1440px',
+      lg: '1024px',
+      xl: '1280px',
     },
     container: {
       center: true,
@@ -28,6 +28,8 @@ module.exports = {
         rubik: ['var(--font-rubik)']
       },
       colors: {
+        dark: '#232A3C',
+        medium: '#293245',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

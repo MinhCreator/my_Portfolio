@@ -3,6 +3,7 @@ import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
 import { Circle, Heart, User2 } from "lucide-react";
+import ThemeToggle from "@/components/ui/ThemeToggle";
 const page = () => {
   const items = [
     { hobby: "coding" },
@@ -55,7 +56,16 @@ const page = () => {
           })}
         </div>
       </FramerWrapper>
+      
+      {/* buggy feature need fix rgb(255,255,255) */}
+      {/* <div>
+        <footer>
+          <ThemeToggle/>
+        </footer>
+      </div> */}
     </div>
+    
+ 
   );
 };
 

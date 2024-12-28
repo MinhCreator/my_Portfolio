@@ -6,7 +6,6 @@ import HeroImage from "@/components/HeroImage";
 import GithubBtn from "@/components/animation/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
-
 export const siteConfig = {
   name: "MinhCreatorVN",
   description: "I am a Passionate Software Developer and solo game dev",
@@ -33,6 +32,8 @@ export default function Home() {
      
       {/* GITHUB BUTTON  */}
       <GithubBtn/>
+
       </>
-  );
+      
+  );  
 }
