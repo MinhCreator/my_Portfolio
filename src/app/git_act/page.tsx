@@ -14,7 +14,7 @@ const GithubActivitiesPage = () => {
         <Heading>My Github activities</Heading>
       </div>
       <FramerWrapper y={100} delay={0.4}>
-        <div className="grid gap-4 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-3 grid-rows-* md:grid-cols-1 sm:grid-cols-1">
+        <div className="grid gap-4 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 grid-rows-* md:grid-cols-1 sm:grid-cols-1">
           {/* Github stats */}
           <a href="https://github.com/MinhCreator">
             <img
