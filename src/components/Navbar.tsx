@@ -28,60 +28,44 @@ const Navbar = () => {
 
   const data = [
     {
-      title: 'Home',
-      icon: (
-        <HomeIcon className='h-full w-full ' />
-      ),
-      href: '/',
+      title: "Home",
+      icon: <HomeIcon className="h-full w-full " />,
+      href: "/",
     },
     {
-      title: 'About',
-      icon: (
-        <User className='h-full w-full ' />
-      ),
-      href: '/about',
+      title: "About",
+      icon: <User className="h-full w-full " />,
+      href: "/about",
     },
     {
-      title: 'Skills',
-      icon: (
-        <Briefcase className='h-full w-full ' />
-      ),
-      href: '/skills',
+      title: "Skills",
+      icon: <Briefcase className="h-full w-full " />,
+      href: "/skills",
     },
     {
-      title: 'Education',
-      icon: (
-        <GraduationCap className='h-full w-full ' />
-      ),
-      href: '/education',
+      title: "Education",
+      icon: <GraduationCap className="h-full w-full " />,
+      href: "/education",
     },
     {
-      title: 'Projects',
-      icon: (
-        <FolderHeart className='h-full w-full ' />
-      ),
-      href: '/projects',
+      title: "Projects",
+      icon: <FolderHeart className="h-full w-full " />,
+      href: "/projects",
     },
     {
-      title: 'Github activity',
-      icon: (
-        <Github className="h-full w-full" />
-      ),
-      href : '/git_act',
+      title: "Github activity",
+      icon: <Github className="h-full w-full" />,
+      href: "/git_act",
     },
     {
-      title: 'Contact us',
-      icon: (
-        <Mail className='h-full w-full ' />
-      ),
-      href: '/contact',
+      title: "Contact us",
+      icon: <Mail className="h-full w-full " />,
+      href: "/contact",
     },
     {
-      title: 'More',
-      icon: (
-        <MoreHorizontal className='h-full w-full ' />
-      ),
-      href: '/more',
+      title: "More",
+      icon: <MoreHorizontal className="h-full w-full " />,
+      href: "/more",
     },
     
   ];

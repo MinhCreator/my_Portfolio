@@ -41,10 +41,10 @@ const morePage = () => {
     //   link: "https://app.daily.dev/taqui_786",
     // },
     // {
-    //   title: "Gumroad",
-    //   description:
-    //     "I also sell digital products on gumroad like Notion Templates and web projects etc..",
-    //   link: "https://mdtaquijhar.gumroad.com/",
+      // title: "Gumroad",
+      // description:
+        // "I also sell digital products on gumroad like Notion Templates and web projects etc..",
+      // link: "/workspaces/my_Portfolio/src/app/[...url]/page.tsx",
     // },
     {
       title: "Buy Me a coffee",
