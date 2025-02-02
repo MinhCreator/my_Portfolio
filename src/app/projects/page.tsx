@@ -23,11 +23,39 @@ const projectsPage = () => {
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
       link: "https://github.com/taqui-786/itZmyLink",
     },
-    {title : "I update later",
-      description: "in progress",
-      tags: ["no tag"],
-      link: "update later",
+    // {title : "I update later",
+    //   description: "in progress",
+    //   tags: ["no tag"],
+    //   link: "update later",
+    // },
+    {
+      title: "Procedural sky simulation",
+      description:
+        "procedural sky simulation is a simple module where user can instant use and create a procedural sky for their game powered by Godot Engine. ",
+      tags: ["Godot 4", "Gdscript", "GLSL shader"],
+      link: "https://github.com/MinhCreator/procedural_sky_godot_4_x",
     },
+
+    {
+      title: "LazyVim Config",
+      description: "my lazyvim config useful for instant using neovim",
+      tags: ["Neovim", "Lua language", "LazyVim"],
+      link: "https://github.com/MinhCreator/lazyvim-config",
+    },
+    {
+      title: "Modular Building System",
+      description:
+        "Modular Building System is a simple addon useful for instant use and create a modular building system for their game powered by Godot Engine. ",
+      tags: ["Godot 4", "Gdscript", "C++", "GDextension"],  
+      link: "https://github.com/MinhCreator/modular-building-system-godot",
+    },
+    {
+      title: "Stylized Water shader for Godot 4.x ",
+      description:"Stylized Water shader for Godot 4.x",
+      tags: ["Godot 4","GLSL shader"],
+      link: "https://godotshaders.com/shader/stylized-water-for-godot-4-x/",
+    }
+    
     // {
     //   title: "GitEstimate- Github estimate worth generator",
     //   description:
