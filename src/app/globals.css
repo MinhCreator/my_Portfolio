@@ -80,7 +80,7 @@
 .name_underline::after{
   content: "";
   display: block;
-  width: 6rem;
+  width: 7rem;
   height: .6rem;
   background-color: #2f7df4;
 }
