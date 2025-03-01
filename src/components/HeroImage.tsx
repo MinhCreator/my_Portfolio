@@ -1,5 +1,5 @@
 // import logo from "../../public/person_img.jpg";
-import logo from "../../public/Coding.gif";
+import logo from "../../public/coding.gif";
 import Image from "next/image";
 
 const HeroImage = () => {
