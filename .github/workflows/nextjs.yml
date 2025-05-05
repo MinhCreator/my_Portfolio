@@ -26,6 +26,12 @@ concurrency:
 
 jobs:
   # Build job
+  setup-env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup env
+        run: |
+          echo "RESEND_API_KEY=${{ secrets.RESEND_API_KEY }}" >> .env
   build:
     runs-on: ubuntu-latest
     steps:
