@@ -54,8 +54,13 @@ const projectsPage = () => {
       description:"Stylized Water shader for Godot 4.x",
       tags: ["Godot 4","GLSL shader"],
       link: "https://godotshaders.com/shader/stylized-water-for-godot-4-x/",
+    },
+    {
+      title: "My Neo Chad config",
+      description:"some preconfig for neovim",
+      tags: ["Neovim","Lua language"],
+      link: "https://github.com/MinhCreator/nvchad-config",
     }
-    
     // {
     //   title: "GitEstimate- Github estimate worth generator",
     //   description:

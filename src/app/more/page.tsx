@@ -47,6 +47,40 @@ const morePage = () => {
       // link: "/workspaces/my_Portfolio/src/app/[...url]/page.tsx",
     // },
     {
+      title: "Customtkinter for python",
+      description: "",
+      link: "https://customtkinter.tomschimansky.com/",
+    },
+    {
+      title: "Tailwindcss",
+      description:
+        "",
+      link: "https://tailwindcss.com/",
+    },
+    {
+      title: "MDN web docs for developers",
+      description:
+        "",
+      link: "https://developer.mozilla.org/en-US/",
+    },
+    { 
+      title: "Choose license for your repository ", 
+      description: "",
+      link: "https://choosealicense.com/",
+    },
+    {
+      title: "It-tools",
+      description:
+        "list useful tools for developers",
+      link: "https://it-tools.tech/",
+    },
+    {
+      title: "daisyUI for tailwindcss",
+      description:
+        "",
+      link: "https://daisyui.com/",
+    },
+    {
       title: "Buy Me a coffee",
       description:
         "Your support goes a long way in helping me maintain the quality of content, explore new topics, and dedicate more time to creating valuable projects.",
@@ -69,7 +103,7 @@ const morePage = () => {
           
           return (
             <FramerWrapper key={indx} className="max-w-[32%] max-lg:max-w-full" y={0} scale={0.8} delay={indx/4} duration={0.15}>
-            <Card  className="w-full">
+            <Card className="w-full">
               <CardHeader>
                 <CardTitle>{value.title}</CardTitle>
               </CardHeader>

@@ -23,7 +23,7 @@ const page = () => {
       <div className="flex flex-col gap-3">
        
           <Heading>
-            Software Engineer And Solo Game <br /> Developer, Based In Viet Nam.
+            Software Engineer And Solo Game <br /> Developer, Come From Viet Nam.
           </Heading>
    
         <FramerWrapper y={0} x={100} >
