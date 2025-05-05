@@ -29,10 +29,13 @@ jobs:
   setup-env:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Setup env
         run: |
           echo "RESEND_API_KEY=${{ secrets.RESEND_API_KEY }}" >> .env
   build:
+    needs: setup-env
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
